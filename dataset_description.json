@@ -4,11 +4,11 @@
     "License": "CC0",
     "DatasetType": "raw",
     "Authors": [
-        "Xinge Li", 
-        "Manon A. Krol", 
-        "Sahar Jahani", 
-        "David A. Boas", 
-        "Helen Tager-Flusberg", 
+        "Xinge Li",
+        "Manon A. Krol",
+        "Sahar Jahani",
+        "David A. Boas",
+        "Helen Tager-Flusberg",
         "Meryem A. Yücel"
     ],
     "Acknowledgements": "This work was supported by the National Institutes of Health (P41EB015896, P01-HD064653, NICHD-PO1 HD 64653). We also thank Guozhen Dong for her help during the set-up of the experiments.",
@@ -21,5 +21,6 @@
     ],
     "ReferencesAndLinks": [
         "https://www.nature.com/articles/s41598-020-67327-5"
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005935.v1.0.0"
 }
