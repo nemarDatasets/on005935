@@ -1,38 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on005935",
-  "source": "openneuro",
-  "source_id": "ds005935",
+  "pipeline_stage": "enriched",
   "title": "Mirror Neuron Study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Xinge Li": {},
     "Manon A. Krol": {},
     "Sahar Jahani": {},
-    "David A. Boas": {},
+    "David A. Boas": {
+      "orcid": "0000-0002-6709-7711"
+    },
     "Helen Tager-Flusberg": {},
     "Meryem A. Yücel": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005935.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005935",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005935",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41598-020-67327-5",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
-      "funder_name": "National Institutes of Health (P41EB015896, P01-HD064653, NICHD-PO1 HD 64653)"
+      "funder_name": "National Institutes of Health",
+      "award_number": "P41EB015896"
+    },
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "P01-HD064653"
+    },
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "NICHD-PO1 HD 64653"
     }
   ],
-  "acknowledgements": "This work was supported by the National Institutes of Health (P41EB015896, P01-HD064653, NICHD-PO1 HD 64653). We also thank Guozhen Dong for her help during the set-up of the experiments."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "This dataset comprises neuroimaging data from a study investigating the brain correlates of motor complexity during observed and executed actions. Using fNIRS and concurrent behavioral measurements, the study examines mirror neuron system activity in response to motor tasks of varying complexity. The dataset includes data from multiple participants performing and observing hand movements, providing insights into the neural mechanisms underlying action observation and execution.",
+  "methods_description": "Data were collected using functional near-infrared spectroscopy (fNIRS) during tasks involving observation and execution of motor actions with varying complexity levels. Concurrent behavioral measurements were recorded alongside neuroimaging data.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "mirror neuron system"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "motor complexity"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "behavioral measurements"
+    }
+  ],
+  "source_hash": "a5a72f86de03f66d709aea4a1ff90ed1de1ea17893be35c3c3f58aee79de1027"
 }
