@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Mirror Neuron Study",
+  "description": "This dataset comprises neuroimaging data from a study investigating the brain correlates of motor complexity during observed and executed actions. The research examines mirror neuron system activity and motor processing mechanisms through simultaneous collection of functional neuroimaging data while participants observe and perform motor tasks of varying complexity. The dataset supports investigation of how the brain represents and processes motor information across different levels of action complexity.",
+  "methods_description": "Data were collected using functional neuroimaging techniques while participants observed and executed motor actions of varying complexity. The study involved simultaneous recording of brain activity during both action observation and action execution conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,27 @@
     "Helen Tager-Flusberg": {},
     "Meryem A. Yücel": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005935.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "mirror neurons"
     },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "action execution"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005935",
       "identifier_type": "URL",
@@ -34,6 +51,11 @@
       "identifier": "10.1038/s41598-020-67327-5",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005935.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -51,46 +73,19 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "773.9 MB (65 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".snirf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises neuroimaging data from a study investigating the brain correlates of motor complexity during observed and executed actions. Using fNIRS and concurrent behavioral measurements, the study examines mirror neuron system activity in response to motor tasks of varying complexity. The dataset includes data from multiple participants performing and observing hand movements, providing insights into the neural mechanisms underlying action observation and execution.",
-  "methods_description": "Data were collected using functional near-infrared spectroscopy (fNIRS) during tasks involving observation and execution of motor actions with varying complexity levels. Concurrent behavioral measurements were recorded alongside neuroimaging data.",
-  "keywords": [
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "mirror neuron system"
-    },
-    {
-      "term": "action observation"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "motor complexity"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "behavioral measurements"
-    }
-  ],
-  "source_hash": "a5a72f86de03f66d709aea4a1ff90ed1de1ea17893be35c3c3f58aee79de1027"
+  "source_hash": "1a40e36b23f185340a269a3c3a04344dffa4831b7b8129bcd3a4f3650bb743cf"
 }
