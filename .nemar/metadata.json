@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Mirror Neuron Study",
-  "description": "This dataset comprises neuroimaging data from a study investigating the brain correlates of motor complexity during observed and executed actions. The research examines mirror neuron system activity and motor processing mechanisms through simultaneous collection of functional neuroimaging data while participants observe and perform motor tasks of varying complexity. The dataset supports investigation of how the brain represents and processes motor information across different levels of action complexity.",
+  "description": "Functional near-infrared spectroscopy (fNIRS) dataset from a mirror neuron study examining brain correlates of motor complexity during observed and executed actions. The recordings were collected at Boston University and are shared in BIDS format, mirrored from OpenNeuro.",
   "methods_description": "Data were collected using functional neuroimaging techniques while participants observed and executed motor actions of varying complexity. The study involved simultaneous recording of brain activity during both action observation and action execution conditions.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -18,19 +18,16 @@
   },
   "keywords": [
     {
-      "term": "mirror neurons"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "action observation"
-    },
-    {
       "term": "fNIRS"
     },
     {
-      "term": "motor cortex"
+      "term": "mirror neuron system"
+    },
+    {
+      "term": "motor complexity"
+    },
+    {
+      "term": "action observation"
     },
     {
       "term": "action execution"
@@ -43,11 +40,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005935",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1038/s41598-020-67327-5",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
@@ -56,6 +48,11 @@
       "identifier": "10.18112/openneuro.ds005935.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005935",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -78,7 +75,7 @@
     "nirs"
   ],
   "sizes": [
-    "773.9 MB (65 files)"
+    "738 MB (65 files)"
   ],
   "formats": [
     ".json",
