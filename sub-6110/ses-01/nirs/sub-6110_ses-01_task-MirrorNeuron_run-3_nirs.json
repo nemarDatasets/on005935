@@ -1,1 +1,1 @@
-{"TaskName": "MirrorNeuron", "SamplingFrequency": 25.000000000000004, "NIRSChannelCount": 120, "NIRSSourceOptodeCount": 16, "NIRSDetectorOptodeCount": 32}
+{"TaskName": "MirrorNeuron", "SamplingFrequency": 25.000000000000004, "NIRSChannelCount": 120, "NIRSSourceOptodeCount": 16, "NIRSDetectorOptodeCount": 32, "RecordingDuration": 340.04, "RecordingType": "continuous", "Manufacturer": "TechEn", "ManufacturersModelName": "CW7"}

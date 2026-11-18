@@ -1,2 +1,9 @@
+1.0.1 2026-11-18
+  - 64 sub-*/ses-01/nirs/*_channels.tsv: channel names written as MNE-Python derives them from the SNIRF measurement list ("S1-D1-690.0" -> "S1_D1 690"); row order and the other columns unchanged; Windows line endings removed
+  - participants.tsv, 64 events.tsv and 21 optodes.tsv: Windows line endings removed; values unchanged
+  - 64 *_nirs.json: Manufacturer TechEn and ManufacturersModelName CW7 added (doi:10.1038/s41598-020-67327-5, Materials and methods, Probe placement and fNIRS system); RecordingDuration and RecordingType computed from the SNIRF time vector of each recording
+  - sourcedata/: the published versions of the files whose values change in this version (64 channels.tsv, 1 participants.tsv), byte-identical at the same relative path (plain git files)
+  - README.md: new section "Contributed notes (version 1.0.1)"
+  - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2025-02-19
   - no changes
